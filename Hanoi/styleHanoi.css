@@ -1,0 +1,46 @@
+div {
+    /*border: 1px solid red;*/
+}
+
+body {
+    background: radial-gradient(rgb(54, 116, 164), rgb(0, 0, 0));
+    color: white;
+    overflow: hidden;
+}
+
+header {
+    color: rgb(105, 176, 230);
+}
+
+.disk {
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.pole {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.testo {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+    background-color: rgb(54, 116, 164);
+}
+
+.vittoria {
+    background-color: rgba(0 200, 0, .8);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25%;
+}
